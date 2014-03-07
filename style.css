@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Sanchez);
 
 /*** FIXES ***/
-.clearfix:after{
+.clearfix:after {
   content:".";
   display:block;
   clear:both;
@@ -15,7 +15,7 @@
 }
 
 /*** BODY ***/
-*{
+* {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,24 +25,24 @@ body {
   margin: 0;
 }
 
-span{
+span {
   font-size: 20px;
   color: #EA1F50;
   line-height: 1.8em;
 }
 
-p{
+p {
   font: normal 16px/1.2em "Sanchez", "Georgia", serif;
   color: #000;
   text-align: center;
   margin-top: 25px;
 }
-.wrapper{
+.wrapper {
   width: 960px;
   margin: auto;
 
 }
-.shadow{
+.shadow {
   box-shadow: 2px 2px 2px #666;
 }
 /*** HEADER ***/
@@ -81,14 +81,14 @@ p{
   content: "\e603";
 }
 
-header{
+header {
   border-bottom: solid 1px #000;
   padding: 10px 0;
   margin-top: 30px;
   height: 90px;
 }
 
-h1{
+h1 {
   font: normal 40px/1em "Playball", serif;
   padding-bottom: 5px;
   margin-bottom: 5px;
@@ -96,14 +96,14 @@ h1{
   display: inline-block;
 
 }
-h2{
+h2 {
   margin: 5px 0 10px;
   text-align: center;
   font-family: "Sanchez", "Georgia", serif;
   color: #EA1F50;
 }
 
-nav{
+nav {
   text-align: center;
   background: rgba(234, 31, 80, 0.9);
   color: white;
@@ -122,7 +122,7 @@ nav a:link {
   color: white;
   margin: 0 5px;
 }
-nav a:visited{
+nav a:visited {
   color: white;
 }
 li{
@@ -133,36 +133,38 @@ li{
 
 /*** CONTENT ***/
 
-/*section{
-  height: 1030px;
-}*/
 
-.section-display{
+.section-display {
   display: inline-block;
 
 }
-#background{
+#background {
   background: #fff;
 }
 
 
-#image{
+#image {
   float: left;
   margin-top: 20px;
 
 }
 
-figcaption{
+.image-item {
+  text-align: center;
+  list-style: none;
+}
+
+figcaption {
   font-size: 12px;
   font-family: "Sanchez", "Georgia", serif;
 
 }
-#mermaid{
+#mermaid {
   font-size: 14px;
   text-align: right;
 }
 
-#about{
+#about {
   float: left;
   width: 300px;
   height: 480px;
@@ -185,7 +187,7 @@ figcaption{
 
 
 /*** DETAILS ***/
-.links{
+.links {
   display: inline-block;
   width: 33%;
   text-align: center;
@@ -195,7 +197,7 @@ figcaption{
 
 
 }
-#connect{
+#connect {
   float: left;
   width: 300px;
   height: 480px;
@@ -207,27 +209,27 @@ figcaption{
   text-align: center;
 
 }
-#contact-info{
+#contact-info {
   line-height: 3em;
   margin: 70px 0;
 }
 
 
-a:link{
+a:link {
   text-decoration: none;
   color: #807A70;
 }
-a:visited{
+a:visited {
   color: #807A70;
 }
-a:hover{
+a:hover {
   color: #CCC;
   text-decoration: underline;
 }
 
 /*** FOOTER ***/
 
-footer{
+footer {
   text-align: center;
   background: rgba(234, 31, 80, 0.9);
   color: white;
